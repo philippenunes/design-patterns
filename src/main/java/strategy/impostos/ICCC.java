@@ -1,8 +1,5 @@
 package strategy.impostos;
 
-import strategy.Imposto;
-import strategy.Orcamento;
-
 public class ICCC implements Imposto {
 
     public double calcula(Orcamento orcamento) {

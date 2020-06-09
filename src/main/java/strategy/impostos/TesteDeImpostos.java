@@ -1,7 +1,4 @@
-package strategy;
-
-import strategy.impostos.ICMS;
-import strategy.impostos.ISS;
+package strategy.impostos;
 
 public class TesteDeImpostos {
 
