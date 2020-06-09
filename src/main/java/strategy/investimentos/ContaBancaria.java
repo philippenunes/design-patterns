@@ -10,4 +10,8 @@ public class ContaBancaria {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
+    public void deposita(double valor) {
+        this.saldo += valor;
+    }
 }

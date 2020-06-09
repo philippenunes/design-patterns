@@ -10,7 +10,7 @@ public class TestaInvestimento {
         RealizadorDeInvestimentos realizadorDeInvestimentos = new RealizadorDeInvestimentos();
 
 //        realizadorDeInvestimentos.realizarInvestimento(conservador, contaBancaria);
-        realizadorDeInvestimentos.realizarInvestimento(moderado, contaBancaria);
-//        realizadorDeInvestimentos.realizarInvestimento(arrojado, contaBancaria);
+//        realizadorDeInvestimentos.realizarInvestimento(moderado, contaBancaria);
+        realizadorDeInvestimentos.realizarInvestimento(arrojado, contaBancaria);
     }
 }

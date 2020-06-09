@@ -4,7 +4,7 @@ public class RealizadorDeInvestimentos {
 
     public void realizarInvestimento(Investimento investimento, ContaBancaria contaBancaria) {
         double valorGanho = investimento.calculoInvestimento(contaBancaria);
-        contaBancaria.setSaldo(contaBancaria.getSaldo() + valorGanho);
+        contaBancaria.deposita(valorGanho * 0.75);
         System.out.println("Saldo atual: " + contaBancaria.getSaldo());
     }
 }
