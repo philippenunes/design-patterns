@@ -1,4 +1,4 @@
-package chainOfResponsability;
+package TemplateMethod;
 
 public class Item {
 
